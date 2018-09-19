@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0255E55553FDD51A446D8FE3 /* libPods-ZZTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C92345866AEFAFEC4FB15A4 /* libPods-ZZTableView.a */; };
+		1AF14E63EB87472BC346E134 /* libPods-ZZTableViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E4BA5D28E900D393759EE9 /* libPods-ZZTableViewUITests.a */; };
+		30058BBF2150F9210025763F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058BBE2150F9210025763F /* AppDelegate.m */; };
+		30058BC22150F9210025763F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058BC12150F9210025763F /* ViewController.m */; };
+		30058BC52150F9210025763F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30058BC32150F9210025763F /* Main.storyboard */; };
+		30058BC72150F9230025763F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30058BC62150F9230025763F /* Assets.xcassets */; };
+		30058BCA2150F9230025763F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30058BC82150F9230025763F /* LaunchScreen.storyboard */; };
+		30058BCD2150F9230025763F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058BCC2150F9230025763F /* main.m */; };
+		30058BD72150F9230025763F /* ZZTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058BD62150F9230025763F /* ZZTableViewTests.m */; };
+		30058BE22150F9230025763F /* ZZTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058BE12150F9230025763F /* ZZTableViewUITests.m */; };
+		30058BF22150F9500025763F /* ZZTableViewDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058BF12150F9500025763F /* ZZTableViewDataManager.m */; };
+		30058BF62150F99C0025763F /* ZZLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058BF32150F99B0025763F /* ZZLabelCell.m */; };
+		30058BF72150F99C0025763F /* ZZLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30058BF42150F99B0025763F /* ZZLabelCell.xib */; };
+		30058C0C2150FF130025763F /* UITableView+ZZTableViewDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058C0B2150FF130025763F /* UITableView+ZZTableViewDataManager.m */; };
+		30058C0D2150FF130025763F /* UITableView+ZZTableViewDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058C0B2150FF130025763F /* UITableView+ZZTableViewDataManager.m */; };
+		30058C0E2150FF130025763F /* UITableView+ZZTableViewDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058C0B2150FF130025763F /* UITableView+ZZTableViewDataManager.m */; };
+		30058C112151165A0025763F /* ZZBlankAreaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058C0F2151165A0025763F /* ZZBlankAreaCell.m */; };
+		30058C122151165A0025763F /* ZZBlankAreaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058C0F2151165A0025763F /* ZZBlankAreaCell.m */; };
+		30058C132151165A0025763F /* ZZBlankAreaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058C0F2151165A0025763F /* ZZBlankAreaCell.m */; };
+		30058C162151F7620025763F /* UITableViewCell+ZZDataBind.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058C152151F7620025763F /* UITableViewCell+ZZDataBind.m */; };
+		30058C172151F7620025763F /* UITableViewCell+ZZDataBind.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058C152151F7620025763F /* UITableViewCell+ZZDataBind.m */; };
+		30058C182151F7620025763F /* UITableViewCell+ZZDataBind.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058C152151F7620025763F /* UITableViewCell+ZZDataBind.m */; };
+		30058C1B2152209F0025763F /* ZZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058C1A2152209F0025763F /* ZZTableView.m */; };
+		30058C1C2152209F0025763F /* ZZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058C1A2152209F0025763F /* ZZTableView.m */; };
+		30058C1D2152209F0025763F /* ZZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30058C1A2152209F0025763F /* ZZTableView.m */; };
+		D0EC0C412E6AF1BFCFB3E555 /* libPods-ZZTableViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F42807078B8DB73DFF69ACB /* libPods-ZZTableViewTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30058BD32150F9230025763F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30058BB22150F9210025763F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30058BB92150F9210025763F;
+			remoteInfo = ZZTableView;
+		};
+		30058BDE2150F9230025763F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30058BB22150F9210025763F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30058BB92150F9210025763F;
+			remoteInfo = ZZTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0130A9991272F8BCC063A893 /* Pods-ZZTableViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTableViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZTableViewTests/Pods-ZZTableViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		30058BBA2150F9210025763F /* ZZTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30058BBD2150F9210025763F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30058BBE2150F9210025763F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30058BC02150F9210025763F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30058BC12150F9210025763F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30058BC42150F9210025763F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30058BC62150F9230025763F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30058BC92150F9230025763F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30058BCB2150F9230025763F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30058BCC2150F9230025763F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30058BD22150F9230025763F /* ZZTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30058BD62150F9230025763F /* ZZTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTableViewTests.m; sourceTree = "<group>"; };
+		30058BD82150F9230025763F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30058BDD2150F9230025763F /* ZZTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30058BE12150F9230025763F /* ZZTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTableViewUITests.m; sourceTree = "<group>"; };
+		30058BE32150F9230025763F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30058BF02150F9500025763F /* ZZTableViewDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZTableViewDataManager.h; sourceTree = "<group>"; };
+		30058BF12150F9500025763F /* ZZTableViewDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZTableViewDataManager.m; sourceTree = "<group>"; };
+		30058BF32150F99B0025763F /* ZZLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZLabelCell.m; sourceTree = "<group>"; };
+		30058BF42150F99B0025763F /* ZZLabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZLabelCell.xib; sourceTree = "<group>"; };
+		30058BF52150F99C0025763F /* ZZLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZLabelCell.h; sourceTree = "<group>"; };
+		30058C0A2150FF130025763F /* UITableView+ZZTableViewDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+ZZTableViewDataManager.h"; sourceTree = "<group>"; };
+		30058C0B2150FF130025763F /* UITableView+ZZTableViewDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ZZTableViewDataManager.m"; sourceTree = "<group>"; };
+		30058C0F2151165A0025763F /* ZZBlankAreaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZBlankAreaCell.m; sourceTree = "<group>"; };
+		30058C102151165A0025763F /* ZZBlankAreaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZBlankAreaCell.h; sourceTree = "<group>"; };
+		30058C142151F7620025763F /* UITableViewCell+ZZDataBind.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+ZZDataBind.h"; sourceTree = "<group>"; };
+		30058C152151F7620025763F /* UITableViewCell+ZZDataBind.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+ZZDataBind.m"; sourceTree = "<group>"; };
+		30058C192152209F0025763F /* ZZTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZTableView.h; sourceTree = "<group>"; };
+		30058C1A2152209F0025763F /* ZZTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTableView.m; sourceTree = "<group>"; };
+		34E4BA5D28E900D393759EE9 /* libPods-ZZTableViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZTableViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68512DA326859A4553549305 /* Pods-ZZTableViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTableViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZTableViewTests/Pods-ZZTableViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C92345866AEFAFEC4FB15A4 /* libPods-ZZTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F42807078B8DB73DFF69ACB /* libPods-ZZTableViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZTableViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC36941479EBACFA74F5528 /* Pods-ZZTableViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTableViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZTableViewUITests/Pods-ZZTableViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89FEB84A806AD96150E7E5E7 /* Pods-ZZTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZTableView/Pods-ZZTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		955B00B631C394183015C496 /* Pods-ZZTableViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTableViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZZTableViewUITests/Pods-ZZTableViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B177E85A1BC9EA1FF42EC598 /* Pods-ZZTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZZTableView/Pods-ZZTableView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30058BB72150F9210025763F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0255E55553FDD51A446D8FE3 /* libPods-ZZTableView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30058BCF2150F9230025763F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EC0C412E6AF1BFCFB3E555 /* libPods-ZZTableViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30058BDA2150F9230025763F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF14E63EB87472BC346E134 /* libPods-ZZTableViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		298D3CFBDB5D3603ED2385FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C92345866AEFAFEC4FB15A4 /* libPods-ZZTableView.a */,
+				6F42807078B8DB73DFF69ACB /* libPods-ZZTableViewTests.a */,
+				34E4BA5D28E900D393759EE9 /* libPods-ZZTableViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30058BB12150F9210025763F = {
+			isa = PBXGroup;
+			children = (
+				30058BBC2150F9210025763F /* ZZTableView */,
+				30058BD52150F9230025763F /* ZZTableViewTests */,
+				30058BE02150F9230025763F /* ZZTableViewUITests */,
+				30058BBB2150F9210025763F /* Products */,
+				9523392FBBFE83A1FE49F975 /* Pods */,
+				298D3CFBDB5D3603ED2385FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30058BBB2150F9210025763F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30058BBA2150F9210025763F /* ZZTableView.app */,
+				30058BD22150F9230025763F /* ZZTableViewTests.xctest */,
+				30058BDD2150F9230025763F /* ZZTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30058BBC2150F9210025763F /* ZZTableView */ = {
+			isa = PBXGroup;
+			children = (
+				30058BEF2150F9340025763F /* ZZ */,
+				30058BBD2150F9210025763F /* AppDelegate.h */,
+				30058BBE2150F9210025763F /* AppDelegate.m */,
+				30058C192152209F0025763F /* ZZTableView.h */,
+				30058C1A2152209F0025763F /* ZZTableView.m */,
+				30058BC02150F9210025763F /* ViewController.h */,
+				30058BC12150F9210025763F /* ViewController.m */,
+				30058BC32150F9210025763F /* Main.storyboard */,
+				30058BC62150F9230025763F /* Assets.xcassets */,
+				30058BC82150F9230025763F /* LaunchScreen.storyboard */,
+				30058BCB2150F9230025763F /* Info.plist */,
+				30058BCC2150F9230025763F /* main.m */,
+			);
+			path = ZZTableView;
+			sourceTree = "<group>";
+		};
+		30058BD52150F9230025763F /* ZZTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				30058BD62150F9230025763F /* ZZTableViewTests.m */,
+				30058BD82150F9230025763F /* Info.plist */,
+			);
+			path = ZZTableViewTests;
+			sourceTree = "<group>";
+		};
+		30058BE02150F9230025763F /* ZZTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30058BE12150F9230025763F /* ZZTableViewUITests.m */,
+				30058BE32150F9230025763F /* Info.plist */,
+			);
+			path = ZZTableViewUITests;
+			sourceTree = "<group>";
+		};
+		30058BEF2150F9340025763F /* ZZ */ = {
+			isa = PBXGroup;
+			children = (
+				30058BF02150F9500025763F /* ZZTableViewDataManager.h */,
+				30058BF12150F9500025763F /* ZZTableViewDataManager.m */,
+				30058BF52150F99C0025763F /* ZZLabelCell.h */,
+				30058BF32150F99B0025763F /* ZZLabelCell.m */,
+				30058BF42150F99B0025763F /* ZZLabelCell.xib */,
+				30058C102151165A0025763F /* ZZBlankAreaCell.h */,
+				30058C0F2151165A0025763F /* ZZBlankAreaCell.m */,
+				30058C0A2150FF130025763F /* UITableView+ZZTableViewDataManager.h */,
+				30058C0B2150FF130025763F /* UITableView+ZZTableViewDataManager.m */,
+				30058C142151F7620025763F /* UITableViewCell+ZZDataBind.h */,
+				30058C152151F7620025763F /* UITableViewCell+ZZDataBind.m */,
+			);
+			path = ZZ;
+			sourceTree = "<group>";
+		};
+		9523392FBBFE83A1FE49F975 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89FEB84A806AD96150E7E5E7 /* Pods-ZZTableView.debug.xcconfig */,
+				B177E85A1BC9EA1FF42EC598 /* Pods-ZZTableView.release.xcconfig */,
+				68512DA326859A4553549305 /* Pods-ZZTableViewTests.debug.xcconfig */,
+				0130A9991272F8BCC063A893 /* Pods-ZZTableViewTests.release.xcconfig */,
+				955B00B631C394183015C496 /* Pods-ZZTableViewUITests.debug.xcconfig */,
+				6FC36941479EBACFA74F5528 /* Pods-ZZTableViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30058BB92150F9210025763F /* ZZTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30058BE62150F9230025763F /* Build configuration list for PBXNativeTarget "ZZTableView" */;
+			buildPhases = (
+				42B6A0F37C6C1DC100C3BF01 /* [CP] Check Pods Manifest.lock */,
+				30058BB62150F9210025763F /* Sources */,
+				30058BB72150F9210025763F /* Frameworks */,
+				30058BB82150F9210025763F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZTableView;
+			productName = ZZTableView;
+			productReference = 30058BBA2150F9210025763F /* ZZTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30058BD12150F9230025763F /* ZZTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30058BE92150F9230025763F /* Build configuration list for PBXNativeTarget "ZZTableViewTests" */;
+			buildPhases = (
+				6EDA1E4F064F742703C9F622 /* [CP] Check Pods Manifest.lock */,
+				30058BCE2150F9230025763F /* Sources */,
+				30058BCF2150F9230025763F /* Frameworks */,
+				30058BD02150F9230025763F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30058BD42150F9230025763F /* PBXTargetDependency */,
+			);
+			name = ZZTableViewTests;
+			productName = ZZTableViewTests;
+			productReference = 30058BD22150F9230025763F /* ZZTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30058BDC2150F9230025763F /* ZZTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30058BEC2150F9230025763F /* Build configuration list for PBXNativeTarget "ZZTableViewUITests" */;
+			buildPhases = (
+				82BB86F722C083B20896F033 /* [CP] Check Pods Manifest.lock */,
+				30058BD92150F9230025763F /* Sources */,
+				30058BDA2150F9230025763F /* Frameworks */,
+				30058BDB2150F9230025763F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30058BDF2150F9230025763F /* PBXTargetDependency */,
+			);
+			name = ZZTableViewUITests;
+			productName = ZZTableViewUITests;
+			productReference = 30058BDD2150F9230025763F /* ZZTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30058BB22150F9210025763F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = layzhao;
+				TargetAttributes = {
+					30058BB92150F9210025763F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					30058BD12150F9230025763F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 30058BB92150F9210025763F;
+					};
+					30058BDC2150F9230025763F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 30058BB92150F9210025763F;
+					};
+				};
+			};
+			buildConfigurationList = 30058BB52150F9210025763F /* Build configuration list for PBXProject "ZZTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30058BB12150F9210025763F;
+			productRefGroup = 30058BBB2150F9210025763F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30058BB92150F9210025763F /* ZZTableView */,
+				30058BD12150F9230025763F /* ZZTableViewTests */,
+				30058BDC2150F9230025763F /* ZZTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30058BB82150F9210025763F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30058BF72150F99C0025763F /* ZZLabelCell.xib in Resources */,
+				30058BCA2150F9230025763F /* LaunchScreen.storyboard in Resources */,
+				30058BC72150F9230025763F /* Assets.xcassets in Resources */,
+				30058BC52150F9210025763F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30058BD02150F9230025763F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30058BDB2150F9230025763F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42B6A0F37C6C1DC100C3BF01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EDA1E4F064F742703C9F622 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZTableViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82BB86F722C083B20896F033 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZTableViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30058BB62150F9210025763F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30058C162151F7620025763F /* UITableViewCell+ZZDataBind.m in Sources */,
+				30058BF62150F99C0025763F /* ZZLabelCell.m in Sources */,
+				30058BF22150F9500025763F /* ZZTableViewDataManager.m in Sources */,
+				30058BC22150F9210025763F /* ViewController.m in Sources */,
+				30058C112151165A0025763F /* ZZBlankAreaCell.m in Sources */,
+				30058C1B2152209F0025763F /* ZZTableView.m in Sources */,
+				30058BCD2150F9230025763F /* main.m in Sources */,
+				30058BBF2150F9210025763F /* AppDelegate.m in Sources */,
+				30058C0C2150FF130025763F /* UITableView+ZZTableViewDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30058BCE2150F9230025763F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30058C1C2152209F0025763F /* ZZTableView.m in Sources */,
+				30058BD72150F9230025763F /* ZZTableViewTests.m in Sources */,
+				30058C0D2150FF130025763F /* UITableView+ZZTableViewDataManager.m in Sources */,
+				30058C172151F7620025763F /* UITableViewCell+ZZDataBind.m in Sources */,
+				30058C122151165A0025763F /* ZZBlankAreaCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30058BD92150F9230025763F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30058C1D2152209F0025763F /* ZZTableView.m in Sources */,
+				30058BE22150F9230025763F /* ZZTableViewUITests.m in Sources */,
+				30058C0E2150FF130025763F /* UITableView+ZZTableViewDataManager.m in Sources */,
+				30058C182151F7620025763F /* UITableViewCell+ZZDataBind.m in Sources */,
+				30058C132151165A0025763F /* ZZBlankAreaCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30058BD42150F9230025763F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30058BB92150F9210025763F /* ZZTableView */;
+			targetProxy = 30058BD32150F9230025763F /* PBXContainerItemProxy */;
+		};
+		30058BDF2150F9230025763F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30058BB92150F9210025763F /* ZZTableView */;
+			targetProxy = 30058BDE2150F9230025763F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30058BC32150F9210025763F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30058BC42150F9210025763F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30058BC82150F9230025763F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30058BC92150F9230025763F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30058BE42150F9230025763F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30058BE52150F9230025763F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30058BE72150F9230025763F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89FEB84A806AD96150E7E5E7 /* Pods-ZZTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M24E72UV9N;
+				INFOPLIST_FILE = ZZTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.layzhao.ZZTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30058BE82150F9230025763F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B177E85A1BC9EA1FF42EC598 /* Pods-ZZTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M24E72UV9N;
+				INFOPLIST_FILE = ZZTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.layzhao.ZZTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30058BEA2150F9230025763F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68512DA326859A4553549305 /* Pods-ZZTableViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M24E72UV9N;
+				INFOPLIST_FILE = ZZTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.layzhao.ZZTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZTableView.app/ZZTableView";
+			};
+			name = Debug;
+		};
+		30058BEB2150F9230025763F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0130A9991272F8BCC063A893 /* Pods-ZZTableViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M24E72UV9N;
+				INFOPLIST_FILE = ZZTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.layzhao.ZZTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZTableView.app/ZZTableView";
+			};
+			name = Release;
+		};
+		30058BED2150F9230025763F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 955B00B631C394183015C496 /* Pods-ZZTableViewUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M24E72UV9N;
+				INFOPLIST_FILE = ZZTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.layzhao.ZZTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZTableView;
+			};
+			name = Debug;
+		};
+		30058BEE2150F9230025763F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC36941479EBACFA74F5528 /* Pods-ZZTableViewUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M24E72UV9N;
+				INFOPLIST_FILE = ZZTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.layzhao.ZZTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30058BB52150F9210025763F /* Build configuration list for PBXProject "ZZTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30058BE42150F9230025763F /* Debug */,
+				30058BE52150F9230025763F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30058BE62150F9230025763F /* Build configuration list for PBXNativeTarget "ZZTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30058BE72150F9230025763F /* Debug */,
+				30058BE82150F9230025763F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30058BE92150F9230025763F /* Build configuration list for PBXNativeTarget "ZZTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30058BEA2150F9230025763F /* Debug */,
+				30058BEB2150F9230025763F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30058BEC2150F9230025763F /* Build configuration list for PBXNativeTarget "ZZTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30058BED2150F9230025763F /* Debug */,
+				30058BEE2150F9230025763F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30058BB22150F9210025763F /* Project object */;
+}
