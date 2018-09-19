@@ -156,13 +156,18 @@
 		30058BBC2150F9210025763F /* ZZTableView */ = {
 			isa = PBXGroup;
 			children = (
-				30058BEF2150F9340025763F /* ZZ */,
+				30058BEF2150F9340025763F /* ZZTableView */,
 				30058BBD2150F9210025763F /* AppDelegate.h */,
 				30058BBE2150F9210025763F /* AppDelegate.m */,
 				30058C192152209F0025763F /* ZZTableView.h */,
 				30058C1A2152209F0025763F /* ZZTableView.m */,
 				30058BC02150F9210025763F /* ViewController.h */,
 				30058BC12150F9210025763F /* ViewController.m */,
+				30058C102151165A0025763F /* ZZBlankAreaCell.h */,
+				30058C0F2151165A0025763F /* ZZBlankAreaCell.m */,
+				30058BF52150F99C0025763F /* ZZLabelCell.h */,
+				30058BF32150F99B0025763F /* ZZLabelCell.m */,
+				30058BF42150F99B0025763F /* ZZLabelCell.xib */,
 				30058BC32150F9210025763F /* Main.storyboard */,
 				30058BC62150F9230025763F /* Assets.xcassets */,
 				30058BC82150F9230025763F /* LaunchScreen.storyboard */,
@@ -190,22 +195,17 @@
 			path = ZZTableViewUITests;
 			sourceTree = "<group>";
 		};
-		30058BEF2150F9340025763F /* ZZ */ = {
+		30058BEF2150F9340025763F /* ZZTableView */ = {
 			isa = PBXGroup;
 			children = (
-				30058BF02150F9500025763F /* ZZTableViewDataManager.h */,
-				30058BF12150F9500025763F /* ZZTableViewDataManager.m */,
-				30058BF52150F99C0025763F /* ZZLabelCell.h */,
-				30058BF32150F99B0025763F /* ZZLabelCell.m */,
-				30058BF42150F99B0025763F /* ZZLabelCell.xib */,
-				30058C102151165A0025763F /* ZZBlankAreaCell.h */,
-				30058C0F2151165A0025763F /* ZZBlankAreaCell.m */,
 				30058C0A2150FF130025763F /* UITableView+ZZTableViewDataManager.h */,
 				30058C0B2150FF130025763F /* UITableView+ZZTableViewDataManager.m */,
 				30058C142151F7620025763F /* UITableViewCell+ZZDataBind.h */,
 				30058C152151F7620025763F /* UITableViewCell+ZZDataBind.m */,
+				30058BF02150F9500025763F /* ZZTableViewDataManager.h */,
+				30058BF12150F9500025763F /* ZZTableViewDataManager.m */,
 			);
-			path = ZZ;
+			path = ZZTableView;
 			sourceTree = "<group>";
 		};
 		9523392FBBFE83A1FE49F975 /* Pods */ = {

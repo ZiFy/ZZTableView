@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "ZZ/UITableView+ZZTableViewDataManager.h"
+#import "UITableView+ZZTableViewDataManager.h"
 #import "ZZBlankAreaCell.h"
 #import "ZZLabelCell.h"
 
